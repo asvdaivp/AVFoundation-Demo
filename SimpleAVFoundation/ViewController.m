@@ -37,5 +37,6 @@
 
 - (IBAction)didTouchCapture:(id)sender {
     [[self captureManager] captureStillImage];
+    UIImage *img = [captureManager stillImage];
 }
 @end
